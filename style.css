@@ -1,0 +1,247 @@
+*,body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    
+
+}
+
+header {
+    position:absolute;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    width: 80%;
+    left: 10%;
+    padding-top: 2rem;
+    font-size: 0.9rem;
+}
+ul li a:hover{
+    color: rgb(7, 80, 55);
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+    
+}
+.icons{
+    text-align: end;
+    
+}
+.icons i{
+    margin-right: 1rem;
+}
+.icons i:hover{
+    color: rgb(7, 80, 55);
+}
+.new-arrivals{
+    background-color: blanchedalmond;
+    margin-top: 3rem;
+    height: 45vh;
+
+}
+.item{
+    height: 44vh;
+}
+.item p{
+    text-align: center;
+    padding-top: 2px;
+}
+.arrival-heading{
+    display: grid;
+    grid-row: 20% 80%;
+}
+.arrival-heading h4{
+    background-color: red;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.owl-carousel .one{
+    background-color: aqua;
+    height: 60vh;
+}
+.section1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.header-text{
+    width: auto;
+}
+.sofa{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sofa span{
+    color: red;
+}
+.text{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+}
+.text h2{
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    height: 6rem;
+    
+    
+}
+.text p {
+    width: 350px;
+    margin-bottom: 2rem;
+}
+span{
+    color: rgb(7, 80, 55);
+    font-weight: 700;
+}
+video{
+    margin-bottom: 2rem;
+    width: 250px;
+    height: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.shop{
+    width: 100px;
+    background-color: rgb(7, 80, 55);
+    color: white;
+    height: 2rem;
+}
+.shop a{
+    color: white;
+}
+.shop:hover{
+    color: rgb(7, 80, 55);
+    background: none;
+    border: 1px solid rgb(7, 80, 55);
+    cursor: pointer;
+}
+.shop a:hover{
+    color: rgb(7, 80, 55);
+}
+.learn{
+    width: 100px;
+    background: none;
+    border:  1px solid rgb(7, 80, 55);
+    height: 2rem;
+}
+.learn a{
+    color: rgb(7, 80, 55);
+}
+.learn a:hover{
+    color: white;
+}
+.learn:hover{
+    background-color: rgb(7, 80, 55);
+    color: white;
+    cursor: pointer;
+}
+button{
+    margin-right: 1rem;
+}
+.image{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    width: 98%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.header-pic2{
+    background-color: azure;
+}
+/*---------------------------------products section------------------*/
+.products-page{
+    background-color: aquamarine;
+    width: 100%;
+    height:auto;
+    margin-top: 3em;
+    margin-bottom: 3rem;
+}
+.products-links{
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.products-links a{    
+    padding-left: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+.products-links a:active{
+    color: rgb(255, 208, 0);;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.item-one{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 14px -3px 25px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: 14px -3px 25px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: 14px -3px 25px -4px rgba(0,0,0,0.48);
+margin-bottom: 2rem;
+}
+.item-one-image{
+    background-color: rgb(247, 247, 247);
+        
+}
+
+.item-one h4{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.item-one h3{
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    font-weight: 600;
+
+}
+.item-one button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+.item-one .details{
+    background-color:rgb(7, 80, 55);
+    color: white;
+}
+.item-one .cart{
+    background-color:rgb(255, 208, 0);
+    color: black;
+}
+.item-one h4 a{
+    float: right;
+}
+/*---------------------------------products section------------------*/
